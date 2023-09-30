@@ -29,6 +29,7 @@ Route::get('cate/del/{id}', 'HomeController@delete')->name('cate/del/{id}');
 
 Route::get('edite', 'HomeController@new')->name('edite');
 Route::get('cate/edit/{id}', 'HomeController@update')->name('cate/edit/{id}');
+Route::get('cate/delete/{id}', 'HomeController@update')->name('cate/edit/{id}');
 
 
 
